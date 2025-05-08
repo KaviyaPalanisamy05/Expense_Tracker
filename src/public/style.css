@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f8ff;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  form input, form button {
+    flex: 1 1 45%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  form button {
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  form button:hover {
+    background: #357ab8;
+  }
+  table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+  }
+  thead {
+    background: #4a90e2;
+    color: white;
+  }
+  
